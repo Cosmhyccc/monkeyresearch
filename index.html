@@ -1,276 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Monkey's research</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.65;
-      margin: 0;
-      padding: 0;
-      background: #f8faf7;
-      color: #1f2937;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 48px 20px 80px;
-    }
-    h1, h2, h3 {
-      color: #111827;
-      line-height: 1.2;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 8px;
-    }
-    .subtitle {
-      font-size: 1.05rem;
-      color: #4b5563;
-      margin-bottom: 32px;
-    }
-    .card {
-      background: white;
-      border: 1px solid #e5e7eb;
-      border-radius: 16px;
-      padding: 24px;
-      margin-bottom: 20px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.04);
-    }
-    ul {
-      padding-left: 20px;
-    }
-    li {
-      margin-bottom: 10px;
-    }
-    a {
-      color: #166534;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .note {
-      font-size: 0.95rem;
-      color: #4b5563;
-    }
-    .disclaimer {
-      background: #fff7ed;
-      border: 1px solid #fdba74;
-    }
-    .footer {
-      margin-top: 32px;
-      font-size: 0.95rem;
-      color: #6b7280;
-    }
-    .small {
-      font-size: 0.92rem;
-      color: #6b7280;
-    }
-    .pill {
-      display: inline-block;
-      background: #dcfce7;
-      color: #166534;
-      border-radius: 999px;
-      padding: 6px 12px;
-      font-size: 0.85rem;
-      font-weight: 600;
-      margin-bottom: 16px;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monkey's Research</title>
+
+<style>
+body{
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+background:#f5f7f4;
+margin:0;
+color:#1f2937;
+line-height:1.65;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:50px 20px 80px;
+}
+
+.hero{
+display:flex;
+align-items:center;
+gap:24px;
+margin-bottom:30px;
+}
+
+.monkey-avatar{
+width:90px;
+height:90px;
+border-radius:16px;
+object-fit:contain;
+}
+
+.pill{
+display:inline-block;
+background:#dcfce7;
+color:#166534;
+border-radius:999px;
+padding:6px 12px;
+font-size:0.85rem;
+font-weight:600;
+margin-bottom:10px;
+}
+
+h1{
+font-size:2.5rem;
+margin:0 0 8px 0;
+}
+
+.subtitle{
+color:#4b5563;
+font-size:1.05rem;
+margin-bottom:30px;
+}
+
+.card{
+background:white;
+border-radius:16px;
+padding:24px;
+margin-bottom:20px;
+border:1px solid #e5e7eb;
+box-shadow:0 8px 20px rgba(0,0,0,0.04);
+}
+
+h2{
+margin-top:0;
+}
+
+ul{
+padding-left:20px;
+}
+
+li{
+margin-bottom:10px;
+}
+
+a{
+color:#166534;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+.small{
+font-size:0.92rem;
+color:#6b7280;
+}
+
+.disclaimer{
+background:#fff7ed;
+border:1px solid #fdba74;
+}
+
+.footer{
+margin-top:30px;
+font-size:0.95rem;
+color:#6b7280;
+}
+</style>
+
 </head>
+
 <body>
-  <main class="container">
-    <div class="pill">Monkey: Gym Pet</div>
-    <h1>Monkey's research</h1>
-    <p class="subtitle">
-      This page highlights the research themes that inspire how we build Monkey: Gym Pet — a gamified fitness app designed to encourage consistency, healthier habits, and long-term progress.
-    </p>
 
-    <section class="card">
-      <h2>Why this exists</h2>
-      <p>
-        Monkey is built around a simple idea: healthy habits compound.
-        Regular movement, strength training, better sleep, and a balanced diet are all linked to better physical health, improved mood, more energy, sharper thinking, and better long-term well-being.
-        We use these ideas to shape a fitness experience that is playful, motivating, and rooted in evidence — not gimmicks.
-      </p>
-    </section>
+<main class="container">
 
-    <section class="card">
-      <h2>1) Movement improves more than just fitness</h2>
-      <p>
-        Credible health organizations consistently show that physical activity helps people feel better, function better, and sleep better.
-        It is also associated with lower anxiety, better cardiovascular health, and lower risk for multiple chronic diseases.
-      </p>
-      <ul>
-        <li>
-          The CDC notes that physical activity has both immediate and long-term benefits, including better sleep, less anxiety, and better overall health.
-        </li>
-        <li>
-          Harvard Health highlights that exercise can improve mood and support memory and thinking, partly by helping with stress and sleep.
-        </li>
-      </ul>
-      <p class="small">
-        Sources:
-        <a href="https://www.cdc.gov/physical-activity-basics/health-benefits/adults.html" target="_blank" rel="noopener noreferrer">CDC – Health Benefits of Physical Activity for Adults</a>,
-        <a href="https://www.cdc.gov/physical-activity-basics/benefits/index.html" target="_blank" rel="noopener noreferrer">CDC – Benefits of Physical Activity</a>,
-        <a href="https://www.health.harvard.edu/mind-and-mood/exercise-can-boost-your-memory-and-thinking-skills" target="_blank" rel="noopener noreferrer">Harvard Health – Exercise can boost memory and thinking skills</a>,
-        <a href="https://www.health.harvard.edu/mind-and-mood/regular-physical-activity-can-boost-mood" target="_blank" rel="noopener noreferrer">Harvard Health – Regular physical activity can boost mood</a>
-      </p>
-    </section>
+<div class="hero">
 
-    <section class="card">
-      <h2>2) Strength training matters</h2>
-      <p>
-        Monkey is not just about random activity. It is designed around purposeful training.
-        Resistance training is one of the most evidence-backed ways to improve muscular fitness, physical function, and body composition.
-      </p>
-      <ul>
-        <li>
-          The American College of Sports Medicine has long emphasized progressive resistance training as a core part of fitness programming.
-        </li>
-        <li>
-          Their position stand describes progression over time, and for hypertrophy-focused training it recommends structured resistance training, progressive overload, and higher-volume multiple-set programs.
-        </li>
-      </ul>
-      <p>
-        In practice, that means the app should reward consistency, real effort, and gradual improvement — not shortcuts.
-      </p>
-      <p class="small">
-        Sources:
-        <a href="https://acsm.org/education-resources/pronouncements-scientific-communications/position-stands/" target="_blank" rel="noopener noreferrer">ACSM – Position Stands</a>,
-        <a href="https://tourniquets.org/wp-content/uploads/PDFs/ACSM-Progression-models-in-resistance-training-for-healthy-adults-2009.pdf" target="_blank" rel="noopener noreferrer">ACSM Position Stand – Progression Models in Resistance Training for Healthy Adults</a>
-      </p>
-    </section>
+<img src="monkeysmile.png" class="monkey-avatar" alt="Monkey mascot">
 
-    <section class="card">
-      <h2>3) Recovery and sleep are part of the training plan</h2>
-      <p>
-        A lot of people think results come only from grinding harder.
-        The research says otherwise.
-        Sleep is not optional maintenance — it is part of performance, recovery, cognition, and health.
-      </p>
-      <ul>
-        <li>
-          The NIH explains that sleep supports healthy brain function and physical health, and that insufficient sleep raises risk across multiple body systems.
-        </li>
-        <li>
-          Sleep also affects energy, focus, memory, mood, learning, and decision-making.
-        </li>
-        <li>
-          Research in healthy young men found that one week of sleep restriction reduced daytime testosterone levels, which matters because sleep plays an important role in healthy hormonal function.
-        </li>
-      </ul>
-      <p>
-        That is why Monkey treats recovery as part of getting stronger, not as laziness.
-      </p>
-      <p class="small">
-        Sources:
-        <a href="https://www.nhlbi.nih.gov/health/sleep/why-sleep-important" target="_blank" rel="noopener noreferrer">NIH/NHLBI – Why Is Sleep Important?</a>,
-        <a href="https://www.nhlbi.nih.gov/health/sleep" target="_blank" rel="noopener noreferrer">NIH/NHLBI – How Sleep Works</a>,
-        <a href="https://jamanetwork.com/journals/jama/fullarticle/1029127" target="_blank" rel="noopener noreferrer">JAMA – Effect of 1 Week of Sleep Restriction on Testosterone Levels in Young Healthy Men</a>
-      </p>
-    </section>
+<div>
 
-    <section class="card">
-      <h2>4) Food quality matters</h2>
-      <p>
-        Exercise works better when it is paired with a balanced diet.
-        We are inspired by evidence-based nutrition principles that focus on whole, minimally processed foods and sustainable eating habits rather than extremes.
-      </p>
-      <ul>
-        <li>
-          Harvard’s Healthy Eating Plate emphasizes vegetables, fruits, whole grains, healthy protein sources, and healthy oils.
-        </li>
-        <li>
-          It also encourages limiting sugary drinks and being mindful about food quality, not just calories.
-        </li>
-      </ul>
-      <p>
-        For Monkey, this means promoting habits that support performance, recovery, and long-term health — not crash diets or unrealistic body ideals.
-      </p>
-      <p class="small">
-        Sources:
-        <a href="https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/" target="_blank" rel="noopener noreferrer">Harvard T.H. Chan – Healthy Eating Plate</a>,
-        <a href="https://nutritionsource.hsph.harvard.edu/healthy-eating-pyramid/" target="_blank" rel="noopener noreferrer">Harvard T.H. Chan – Healthy Eating Pyramid</a>
-      </p>
-    </section>
+<div class="pill">Monkey: gym pet</div>
 
-    <section class="card">
-      <h2>5) Healthy habits support a healthier, happier life</h2>
-      <p>
-        The broader idea behind Monkey is that fitness is not only about appearance.
-        Good habits can help people feel more capable, more stable, and more satisfied in daily life.
-      </p>
-      <ul>
-        <li>
-          Physical activity is linked to better mood, lower anxiety, and better day-to-day functioning.
-        </li>
-        <li>
-          Better sleep supports mood, focus, creativity, learning, and decision-making.
-        </li>
-        <li>
-          Strength training and sound nutrition support physical resilience and long-term health.
-        </li>
-      </ul>
-      <p>
-        We want Monkey to make these habits easier to stick to by turning consistency into something visible, rewarding, and fun.
-      </p>
-      <p class="small">
-        Sources:
-        <a href="https://www.cdc.gov/physical-activity-basics/health-benefits/adults.html" target="_blank" rel="noopener noreferrer">CDC – Health Benefits of Physical Activity for Adults</a>,
-        <a href="https://www.health.harvard.edu/mind-and-mood/regular-physical-activity-can-boost-mood" target="_blank" rel="noopener noreferrer">Harvard Health – Regular physical activity can boost mood</a>,
-        <a href="https://www.nia.nih.gov/health/sleep/sleep-and-older-adults" target="_blank" rel="noopener noreferrer">National Institute on Aging – Why Sleep Is Important</a>
-      </p>
-    </section>
+<h1>Monkey's research</h1>
 
-    <section class="card">
-      <h2>How this research shapes Monkey</h2>
-      <ul>
-        <li><strong>Consistency over perfection:</strong> we want to reward repeated healthy actions, because long-term results come from repetition.</li>
-        <li><strong>Training + recovery:</strong> workouts matter, but so do sleep, rest, and nutrition.</li>
-        <li><strong>Progressive growth:</strong> the app is inspired by the idea that gradual overload and habit-building drive real adaptation.</li>
-        <li><strong>Mood and motivation:</strong> fitness should feel encouraging, not punishing.</li>
-        <li><strong>Whole-person health:</strong> we care about energy, confidence, resilience, and overall well-being — not just aesthetics.</li>
-      </ul>
-    </section>
+<p class="subtitle">
+This page highlights the research themes that inspire how we build Monkey: Gym Pet — a gamified fitness app designed to encourage consistency, healthier habits, and long-term progress.
+</p>
 
-    <section class="card disclaimer">
-      <h2>Important disclaimer</h2>
-      <p>
-        Monkey is a fitness and habit-building product for general wellness and educational purposes only.
-        It is <strong>not</strong> medical advice, diagnosis, or treatment.
-      </p>
-      <p>
-        Always consult a qualified physician, registered dietitian, or other licensed healthcare professional before starting or changing any exercise program, nutrition plan, supplement routine, or sleep-related intervention — especially if you have any medical conditions, injuries, symptoms, or health concerns.
-      </p>
-      <p>
-        Never ignore professional medical advice or delay seeking it because of something you read in this app or on this page.
-      </p>
-    </section>
+</div>
+</div>
 
-    <section class="card">
-      <h2>References</h2>
-      <ul>
-        <li><a href="https://www.cdc.gov/physical-activity-basics/health-benefits/adults.html" target="_blank" rel="noopener noreferrer">CDC – Health Benefits of Physical Activity for Adults</a></li>
-        <li><a href="https://www.cdc.gov/physical-activity-basics/benefits/index.html" target="_blank" rel="noopener noreferrer">CDC – Benefits of Physical Activity</a></li>
-        <li><a href="https://www.health.harvard.edu/mind-and-mood/exercise-can-boost-your-memory-and-thinking-skills" target="_blank" rel="noopener noreferrer">Harvard Health – Exercise can boost memory and thinking skills</a></li>
-        <li><a href="https://www.health.harvard.edu/mind-and-mood/regular-physical-activity-can-boost-mood" target="_blank" rel="noopener noreferrer">Harvard Health – Regular physical activity can boost mood</a></li>
-        <li><a href="https://www.nhlbi.nih.gov/health/sleep/why-sleep-important" target="_blank" rel="noopener noreferrer">NIH/NHLBI – Why Is Sleep Important?</a></li>
-        <li><a href="https://www.nhlbi.nih.gov/health/sleep" target="_blank" rel="noopener noreferrer">NIH/NHLBI – How Sleep Works</a></li>
-        <li><a href="https://jamanetwork.com/journals/jama/fullarticle/1029127" target="_blank" rel="noopener noreferrer">JAMA – Effect of 1 Week of Sleep Restriction on Testosterone Levels in Young Healthy Men</a></li>
-        <li><a href="https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/" target="_blank" rel="noopener noreferrer">Harvard T.H. Chan – Healthy Eating Plate</a></li>
-        <li><a href="https://nutritionsource.hsph.harvard.edu/healthy-eating-pyramid/" target="_blank" rel="noopener noreferrer">Harvard T.H. Chan – Healthy Eating Pyramid</a></li>
-        <li><a href="https://acsm.org/education-resources/pronouncements-scientific-communications/position-stands/" target="_blank" rel="noopener noreferrer">ACSM – Position Stands</a></li>
-        <li><a href="https://tourniquets.org/wp-content/uploads/PDFs/ACSM-Progression-models-in-resistance-training-for-healthy-adults-2009.pdf" target="_blank" rel="noopener noreferrer">ACSM Position Stand – Progression Models in Resistance Training for Healthy Adults</a></li>
-      </ul>
-    </section>
 
-    <p class="footer">
-      Built for Monkey: Gym Pet — a gamified fitness app inspired by evidence-based habits that help people get stronger, healthier, and more consistent over time.
-    </p>
-  </main>
+<section class="card">
+<h2>Why this exists</h2>
+
+<p>
+Monkey is built around a simple idea: healthy habits compound. Regular movement, strength training, better sleep, and a balanced diet are all linked to better physical health, improved mood, more energy, sharper thinking, and long-term well-being.
+</p>
+
+<p>
+We use these ideas to shape a fitness experience that is playful, motivating, and rooted in evidence — not gimmicks.
+</p>
+
+</section>
+
+
+<section class="card">
+
+<h2>1) Movement improves more than just fitness</h2>
+
+<p>
+Credible health organizations consistently show that physical activity helps people feel better, function better, and sleep better. It is also associated with lower anxiety, improved cardiovascular health, and reduced risk of many chronic diseases.
+</p>
+
+<ul>
+<li>Exercise improves mood and mental health.</li>
+<li>Regular activity improves cardiovascular health.</li>
+<li>Physical movement improves sleep quality and cognitive performance.</li>
+</ul>
+
+<p class="small">
+Sources:
+<a href="https://www.cdc.gov/physical-activity-basics/health-benefits/adults.html" target="_blank">CDC – Health Benefits of Physical Activity</a>,
+<a href="https://www.health.harvard.edu/mind-and-mood/exercise-can-boost-your-memory-and-thinking-skills" target="_blank">Harvard Health – Exercise & Brain Function</a>
+</p>
+
+</section>
+
+
+<section class="card">
+
+<h2>2) Strength training matters</h2>
+
+<p>
+Resistance training is one of the most well-supported forms of exercise for improving muscular strength, muscle mass, metabolic health, and long-term mobility.
+</p>
+
+<ul>
+<li>Progressive resistance training increases muscle hypertrophy.</li>
+<li>Strength training improves metabolic health and body composition.</li>
+<li>Structured training programs help create sustainable progress.</li>
+</ul>
+
+<p class="small">
+Sources:
+<a href="https://acsm.org/education-resources/pronouncements-scientific-communications/position-stands/" target="_blank">American College of Sports Medicine – Resistance Training</a>
+</p>
+
+</section>
+
+
+<section class="card">
+
+<h2>3) Recovery and sleep are part of training</h2>
+
+<p>
+Recovery is not optional. Sleep plays a critical role in muscle recovery, hormone regulation, mental performance, and overall health.
+</p>
+
+<ul>
+<li>Sleep supports muscle repair and recovery.</li>
+<li>Sleep influences cognitive performance and mood.</li>
+<li>Sleep restriction can impact hormone balance including testosterone.</li>
+</ul>
+
+<p class="small">
+Sources:
+<a href="https://www.nhlbi.nih.gov/health/sleep/why-sleep-important" target="_blank">NIH – Why Sleep Matters</a>,
+<a href="https://jamanetwork.com/journals/jama/fullarticle/1029127" target="_blank">JAMA – Sleep Restriction & Testosterone</a>
+</p>
+
+</section>
+
+
+<section class="card">
+
+<h2>4) Nutrition fuels performance</h2>
+
+<p>
+Training outcomes depend heavily on nutrition. A balanced diet consisting of whole foods, quality protein sources, healthy fats, and nutrient-dense carbohydrates supports physical performance and long-term health.
+</p>
+
+<ul>
+<li>Whole foods support sustained energy.</li>
+<li>Protein supports muscle growth and repair.</li>
+<li>Balanced diets improve long-term health outcomes.</li>
+</ul>
+
+<p class="small">
+Sources:
+<a href="https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/" target="_blank">Harvard T.H. Chan – Healthy Eating Plate</a>
+</p>
+
+</section>
+
+
+<section class="card">
+
+<h2>Healthy habits support a healthier life</h2>
+
+<p>
+The broader philosophy behind Monkey is that fitness is not just about aesthetics. Physical activity, sleep, and nutrition together help people feel stronger, think clearer, improve confidence, and live healthier lives.
+</p>
+
+<ul>
+<li>Exercise improves long-term physical health.</li>
+<li>Healthy habits improve mood and resilience.</li>
+<li>Consistency compounds into meaningful long-term results.</li>
+</ul>
+
+</section>
+
+
+<section class="card disclaimer">
+
+<h2>Important disclaimer</h2>
+
+<p>
+Monkey is a wellness and habit-building product intended for educational purposes only.
+</p>
+
+<p>
+It does not provide medical advice, diagnosis, or treatment. Always consult a qualified physician or licensed healthcare professional before beginning any exercise program, dietary change, or health routine.
+</p>
+
+<p>
+Never ignore professional medical advice because of information provided within this application.
+</p>
+
+</section>
+
+
+<section class="card">
+
+<h2>References</h2>
+
+<ul>
+
+<li><a href="https://www.cdc.gov/physical-activity-basics/health-benefits/adults.html" target="_blank">CDC – Health Benefits of Physical Activity</a></li>
+
+<li><a href="https://www.health.harvard.edu/mind-and-mood/exercise-can-boost-your-memory-and-thinking-skills" target="_blank">Harvard Health – Exercise and Brain Function</a></li>
+
+<li><a href="https://www.nhlbi.nih.gov/health/sleep/why-sleep-important" target="_blank">NIH – Why Sleep Matters</a></li>
+
+<li><a href="https://jamanetwork.com/journals/jama/fullarticle/1029127" target="_blank">JAMA – Sleep Restriction and Testosterone</a></li>
+
+<li><a href="https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/" target="_blank">Harvard – Healthy Eating Plate</a></li>
+
+<li><a href="https://acsm.org/education-resources/pronouncements-scientific-communications/position-stands/" target="_blank">ACSM – Resistance Training Guidelines</a></li>
+
+</ul>
+
+</section>
+
+
+<p class="footer">
+Built for Monkey: Gym Pet — a gamified fitness app inspired by evidence-based habits that help people become stronger, healthier, and more consistent over time.
+</p>
+
+
+</main>
+
 </body>
 </html>
